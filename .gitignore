@@ -1,3 +1,5 @@
 venv/
 *.jpg
 __pycache__
+*.jpeg
+*.png

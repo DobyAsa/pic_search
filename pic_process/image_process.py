@@ -13,5 +13,3 @@ def get_image_features(image):
         image_features = model.encode_image(image)
     # return a list of image features and image id
     return image_features.squeeze().tolist()
-def get_image_id():
-    return str(uuid.uuid1())
